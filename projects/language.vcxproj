@@ -124,12 +124,6 @@
   <ItemGroup>
     <ClInclude Include="..\source\win32\language\resource.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="core.vcxproj">
-      <Project>{ccc3a09c-0f7a-4e12-8594-11f2c60d71da}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
